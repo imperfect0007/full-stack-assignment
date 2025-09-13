@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 // Get our secret key from environment or use a default (not recommended for production!)
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'S3cureR@nd0mK3y!2025$ZxWq';
 
 // Basic user info we store in the database
 export interface User {
