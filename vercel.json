@@ -1,7 +1,4 @@
 {
-  "functions": {
-    "app/api/**/*.ts": {}
-  },
   "headers": [
     {
       "source": "/api/(.*)",
